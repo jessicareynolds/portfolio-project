@@ -13,10 +13,14 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
   color: #1e6144;
   font-family: "Didot", serif;
+}
+
+h5 {
+  color: #ebedc3;
+  font-family: "Futura", sans-serif;
 }
 
 nav {
@@ -59,7 +63,7 @@ nav {
 
 .item {
   width: 100%;
-  padding: 100px;
+  padding: 150px;
   height: 350px;
   text-align: center;
   background-color: #ebedc3;
@@ -73,4 +77,10 @@ nav {
 }
 .col-full {
   width: 1044px;
+}
+
+.footer {
+  background-color: #1e6144;
+  padding: 30px;
+  text-align: right;
 }

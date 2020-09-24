@@ -79,6 +79,30 @@ nav {
   width: 1044px;
 }
 
+.box {
+  float: left;
+}
+
+/* unvisited link */
+a:link {
+  color: #fc0;
+}
+
+/* visited link */
+a:visited {
+  color: #1e6144;
+}
+
+/* mouse over link */
+a:hover {
+  color: #e03319;
+}
+
+/* selected link */
+a:active {
+  color: #ebedc3;
+}
+
 .footer {
   background-color: #1e6144;
   padding: 30px;

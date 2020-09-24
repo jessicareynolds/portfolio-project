@@ -14,3 +14,4 @@
 - https://keithclark.co.uk/articles/pure-css-parallax-websites/
 - https://www.freecodecamp.org/news/tips-for-aspiring-web-developers/
 - https://teamtreehouse.com/community/why-is-the-footer-placed-before-the-closing-of-the-body-tag-and-not-after#:~:text=Since%20the%20footer%20is%20a,should%20go%20within%20the%20body.
+- https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/

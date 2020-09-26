@@ -14,20 +14,24 @@ h1,
 h2,
 h3,
 h4 {
+  margin: 0;
   color: #ab1b11;
-  font-family: "Didot", serif;
 }
 
 h5 {
+  margin: 0;
   color: #ebedc3;
   font-family: "Futura", sans-serif;
+}
+
+p {
+  font-size: 14px;
 }
 
 nav {
   top: 0%;
   width: 100%;
   position: fixed;
-  overflow: scroll;
   background-color: #d4b744;
 }
 .container {
@@ -42,7 +46,7 @@ nav {
 }
 .container ul li a:hover {
   padding: 12px;
-  color: #f90;
+  color: #fc0;
 }
 .container ul li a {
   margin: 8px;
@@ -57,18 +61,47 @@ nav {
 }
 .container p {
   margin-bottom: 16px;
-  color: #f90;
+  color: #fc0;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .item {
   width: 100%;
-  padding: 130px;
+  padding-top: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   height: 350px;
   text-align: center;
   overflow: scroll;
   background-color: #f0ecd8;
+  border-bottom: 3px solid #d4b744;
+}
+
+.item-table {
+  width: 100%;
+  padding-top: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 350px;
+  text-align: left;
+  overflow: scroll;
+  background-color: #e09146;
+  border-bottom: 3px solid #d4b744;
+}
+
+.item-contact {
+  width: 100%;
+  padding-top: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 350px;
+  text-align: right;
+  overflow: scroll;
+  background-color: #e09146;
   border-bottom: 3px solid #d4b744;
 }
 
@@ -88,7 +121,7 @@ nav {
 
 /* unvisited link */
 a:link {
-  color: #f90;
+  color: #fc0;
 }
 
 /* visited link */
@@ -98,7 +131,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #e03319;
+  color: #fc0;
 }
 
 /* selected link */

@@ -79,14 +79,14 @@ nav {
   border-bottom: 3px solid #d4b744;
 }
 
-.item-table {
+.item-projects {
   width: 100%;
   padding-top: 130px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   height: 350px;
-  text-align: left;
+  text-align: center;
   overflow: scroll;
   background-color: #e09146;
   border-bottom: 3px solid #d4b744;
@@ -117,6 +117,22 @@ nav {
 
 .box {
   float: left;
+}
+
+/* creates three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* unvisited link */
